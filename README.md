@@ -1,5 +1,7 @@
 # Generating Videos with Scene Dynamics
 
+## In this version, we are attempting to build in the encoder from the original paper, which is left out in the tensorflow reimplementation
+
 ## Introduction
 This repository contains an implementation of "Generating Videos with Scene Dynamics" in Tensorflow. The paper can be found here (http://carlvondrick.com/tinyvideo/paper.pdf). The model learns to generate a video by upsampling from some latent space, using adversarial training.
 
